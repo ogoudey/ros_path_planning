@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'grids = basics.grids:main',
-            'paths = basics.path_requester:main'
+            'paths = basics.path_requester:main',
+            'follower = basics.path_follower:main',
+            'pose = basics.pose_publisher:main',
         ],
     },
 )
