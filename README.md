@@ -9,6 +9,13 @@ $ ros2 run nav2_map_server map_server   --ros-args     -p subscribe_to_map_topic
 $ ros2 run rviz2 rviz2
 
 $ ros2 run basics paths
+
+(may also need:
+
+$ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom
+$ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_link
+
+)
 ```
 
 ## This is a ROS Package
