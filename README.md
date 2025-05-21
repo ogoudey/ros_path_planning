@@ -11,3 +11,7 @@ $ ros2 run rviz2 rviz2
 $ ros2 run basics paths
 ```
 
+## This is a ROS Package
+1. Clone to a ROS workspace in `root/src/`
+2. Use `colcon build` and source the overlay with `. install/setup.bash`
+
